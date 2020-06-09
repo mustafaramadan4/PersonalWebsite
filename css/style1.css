@@ -6,6 +6,18 @@
   padding: 20px;
 } */
 
+.header {
+  height: 40px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(0,128,128,0), rgb(0,128,128,1));
+}
+
+.footer {
+  height: 40px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(0,128,128,1), rgb(0,128,128,0));
+}
+
 .projects {
   width: 90%;
   border-collapse: collapse;
@@ -22,7 +34,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: left;
-  background-color: teal;
+  background-color: rgb(45, 128, 128);
   color: white;
 }
 
