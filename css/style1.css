@@ -19,7 +19,7 @@
 }
 
 .projects {
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
 }
 .projects td, .projects th {
@@ -74,7 +74,7 @@ p.fancy {
 
 .topnav a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -82,12 +82,13 @@ p.fancy {
 }
 
 .topnav a:hover {
- background-color: black;
- color: white;
+ background-color: grey;
+ color: black;
 }
 
 .topnav a.active {
-  background-color: rgb(28, 97, 97);
+  background-color: rgb(16, 56, 56);
+  color: white;
 }
 
 .row {
@@ -134,13 +135,10 @@ img.a {
   background-color: grey;
 }
 
-.btn.active {
-  background-color: red;
-  color: white;
-}
 
 .imagegridheader {
-  padding-top: 56px;
-  text-align: center;
+  padding-top: 15px;
+
+  text-align: left;
 }
 
