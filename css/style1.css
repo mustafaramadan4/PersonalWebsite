@@ -43,3 +43,40 @@ p.fancy {
   font-size: 2em;
   text-align: center;
 }
+
+.resumetitles {
+  background-color : blue;
+}
+.resumecontent {
+  background-color: pink;
+
+}
+.resumesubtitle {
+  background-color : green;
+}
+
+.topnav {
+  background-color: teal;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+ background-color: black;
+ color: white;
+}
+
+.topnav a.active {
+  background-color: rgb(28, 97, 97);
+}
+
+
+
