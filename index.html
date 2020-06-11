@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name= "viewport" content= "width=device-width, inital-scale= 1.0">
     <title>Who is Mustafa Ramadan</title>
     <link href="/css/style1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
   </head>
 
   <body>
+    <script src="/javascripts/scripts.js"></script>
+
+    <div class = "wrappingContainer"> 
+
     <div class= "header"> </div>
     <div class= "topnav">
       <a class= "active" href="/index.html">Home</a>
       <a class = "#Resume" href="/html_serve/resume.html">Resume</a>
       <a class = "#PrevWork" href="/html_serve/previouswork.html">Previous Work</a>
     </div>
+    <div class = "resumetitles">
     <h1>
       Who is Mustafa Ramadan?
     </h1>
-    <img src = "Headshot.jpg" width= 300 height= 200 alt= "Mustafa's epic photo :)">
+    </div>
+    <img class = "a" src = "/Media/Headshot.jpg" width= 100% alt="headshot">
 
     <p>
       <h2>This site will give you a glimpse into who is Mustafa Ramadan. </h2> 
@@ -53,6 +61,50 @@
         </li>
       </ul>
     </p>
+    <h4>ALSO, enhoy my favorite photos :)</h4>
+
+    <div class = "imagegridheader" id= "gridheader">
+      <p> Click on the buttons to change the current grid view of my favorite images</p>
+      <button class = "btn active" onclick="one() ">1 </button>
+      <button class = "btn " onclick= "two() ">2 </button>
+      <button class = "btn" onclick= "four() ">4 </button>
+    </div>
+
+    <div class = "mediarow">
+      <div class = "mediacolumn">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+
+      </div>
+      <div class= "mediacolumn">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+
+      </div>
+      <div class= "mediacolumn">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+
+      </div>
+      <div class= "mediacolumn">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+        <img src = "Media/Headshot.jpg" style= "width: 100%">
+
+      </div>
+    </div>
+  </div>
   </body>
   <div class= "footer"> </div>
 </html>

@@ -41,18 +41,27 @@
 p.fancy {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
 }
 
 .resumetitles {
-  background-color : blue;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  text-align: left;
+  background-color : papayawhip;
+  color: black;
+
 }
 .resumecontent {
-  background-color: pink;
+  background-color: rgba(0, 128, 128, 0.205);
+  color: black;
+  border-radius: 25px;
+  padding-bottom: 5px;  
 
 }
 .resumesubtitle {
-  background-color : green;
+  background-color : rgba(0, 128, 128, 0.795);
+  padding-left: 10px;
 }
 
 .topnav {
@@ -81,5 +90,52 @@ p.fancy {
   background-color: rgb(28, 97, 97);
 }
 
+.row {
+  display: flex;
+}
+.column {
+  flex: 24%;
+  padding: 5px;
+}
+.wrappingContainer {
+  background-color: white;
+}
 
+img.a {
+  float: right;  
+  display: flex;
+  width: 33%;
+}
+.mediarow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.mediacolumn {
+  flex:50%;
+  padding: 0 4px;
+}
+
+.mediacolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: teal;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.btn.active {
+  background-color: red;
+  color: white;
+}
 
