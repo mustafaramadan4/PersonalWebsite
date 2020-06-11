@@ -58,6 +58,9 @@ p.fancy {
 .topnav {
   background-color: teal;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .topnav a {
