@@ -1,16 +1,16 @@
 In my personal website, the theme of the website acts as a personal site that represents who I am via, resume, relvant projects completed, social media links and photos.  I have 3 HTML links connected to this assignment.
 - index.html 
   - this acts as a landing page that includes the navigation bar, internal links to other pages, and external links. In addition, I've created an interactive image grid that represents a duplicated photo of myself.
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/MustafaRamadan-Book/blob/master/readme_images/Ch7-API.png)
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/PersonalWebsite-MustafaRamadan/blob/master/Media/IndexPageImage.png)
 
 
 - resume.html
   - this acts as a page that includes a div of interests and a div on skills. Within each we have an unordered list of lists. Also, at the top of the page, aside from the navigation bar, you'll find photos that are aligned in consecutive order across the width of the page.
-  ![](https://github.ccs.neu.edu/NEU-CS5610-SU20/MustafaRamadan-Book/blob/master/readme_images/Ch7-API.png)
+  ![](https://github.ccs.neu.edu/NEU-CS5610-SU20/PersonalWebsite-MustafaRamadan/blob/master/Media/ResumePageImage.png)
 
 - previouswork.html
   - this acts as a page that includes all of my previous CS projects that have been completed throughout my Masters at NEU. This was organized via the construction of an HTML table. 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/MustafaRamadan-Book/blob/master/readme_images/Ch7-API.png)
+![](https://github.ccs.neu.edu/NEU-CS5610-SU20/PersonalWebsite-MustafaRamadan/blob/master/Media/PreviousWorkPageImage.png)
 
 In order to address the completion of each of the requirements to this assignment, I will address how they've been taken care of one at a time.
 
