@@ -44,11 +44,25 @@ p.fancy {
   text-align: left;
 }
 
+.indextitles {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  text-align: left;
+  background-image: linear-gradient(to left, papayawhip, rgba(0, 128, 128, 0.493));
+
+  /* background-image: linear-gradient(to right, rgb(255, 224, 174), rgba(0, 128, 128, 0.623)); */
+
+  color: black;
+
+}
 .resumetitles {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
   text-align: left;
-  background-color : papayawhip;
+  background-image: linear-gradient(to right, papayawhip, rgba(0, 128, 128, 0.493));
+
+  /* background-image: linear-gradient(to right, rgb(255, 224, 174), rgba(0, 128, 128, 0.623)); */
+
   color: black;
 
 }
@@ -74,7 +88,7 @@ p.fancy {
 
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -99,7 +113,7 @@ p.fancy {
   padding: 5px;
 }
 .wrappingContainer {
-  background-color: white;
+  background-image: linear-gradient(to right, papayawhip, rgba(0, 128, 128, 0.493));
 }
 
 img.a {
@@ -129,6 +143,7 @@ img.a {
   background-color: teal;
   cursor: pointer;
   font-size: 16px;
+  color: white;
 }
 
 .btn:hover {
