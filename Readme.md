@@ -10,6 +10,8 @@ In order to address the completion of each of the requirements to this assignmen
 
 1) The landing page i.e. the index.html is the page that loads up from my heroku deployed page. You will find a navigation bar that links to the other pages of the website directory. A darker blue color will appear over the corresponding page on the navigation bar implying that is the page you are currently vieweing. 
 
-2) 
+2) The navigation bar can be found on each of the 3 internal pages described above. They are also fixed, thus, when you scroll, they will follow the top of the page and wont be lost from sight. There are no deadend as each page can link to any other corresponsing page that is clicked on. When resizal occurs, the navigation bar remains. 
+
+3) 
 
 https://sheltered-taiga-18436.herokuapp.com/index.html
