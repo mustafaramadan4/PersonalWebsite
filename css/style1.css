@@ -15,7 +15,7 @@
 .footer {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, rgb(0,128,128,1), rgb(0,128,128,0));
+  background-color: teal;
 }
 
 .projects {
@@ -28,7 +28,9 @@
 }
 
 .projects tr:nth-child(even){background-color: #f2f2f2;}
-.projects tr:hover {background-color: #ddd;}
+.projects tr:nth-child(odd){background-color: rgb(180, 179, 179);}
+
+.projects tr:hover {background-color: rgba(0, 128, 128, 0.377);}
 
 .projects th{
   padding-top: 5px;
@@ -70,7 +72,7 @@ p.fancy {
   background-color: rgba(0, 128, 128, 0.205);
   color: black;
   border-radius: 25px;
-  padding-bottom: 5px;  
+  padding-bottom: 10px;  
 
 }
 .resumesubtitle {
